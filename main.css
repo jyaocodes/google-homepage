@@ -8,7 +8,7 @@
 }
 
 body {
-	background: none repeat scroll 0 0 #fff;
+	background: none repeat scroll 0 0 rgb(255,192,203);
 	/*change the text color to light blackish*/
     color: #222;
     /*set default margin to 0 - becuase every browser has a different default*/
@@ -34,15 +34,15 @@ a:hover {
 	Top Section - Navigation
 ==================================================*/
 /*select any elements with a class of top-navigation*/
-.top-navigation {
+.nav {
 	float:right;
 	margin-right: 25px;
 }
 
 /*select any elements with a class of top-navigation and find any li tags inside those*/
-.top-navigation li{
+.nav li{
 	list-style: none;
-	display: inline-block;
+	display: inline;
 	text-align: right;
 	padding: 5px 10px 0 0;
 	vertical-align: bottom;
